@@ -9,8 +9,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var connector = WatchConnector()
+    
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            HStack {
+                Text("\(connector.count)")
+                Button(action: { self.connector.send() }) { Text("送信") }
+            }
+            Text("\(self.connector.receivedMessage)")
+        }
     }
 }
 

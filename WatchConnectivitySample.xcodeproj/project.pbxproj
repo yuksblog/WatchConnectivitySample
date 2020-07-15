@@ -22,6 +22,8 @@
 		245285DD24BE89CB00BFB8B5 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245285DC24BE89CB00BFB8B5 /* ExtensionDelegate.swift */; };
 		245285DF24BE89CB00BFB8B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 245285DE24BE89CB00BFB8B5 /* Assets.xcassets */; };
 		245285E224BE89CB00BFB8B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 245285E124BE89CB00BFB8B5 /* Preview Assets.xcassets */; };
+		245285F224BE8A2500BFB8B5 /* WatchConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245285F124BE8A2500BFB8B5 /* WatchConnector.swift */; };
+		245285F424BE8C4B00BFB8B5 /* PhoneConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245285F324BE8C4B00BFB8B5 /* PhoneConnector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +88,8 @@
 		245285DE24BE89CB00BFB8B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		245285E124BE89CB00BFB8B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		245285E324BE89CB00BFB8B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		245285F124BE8A2500BFB8B5 /* WatchConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnector.swift; sourceTree = "<group>"; };
+		245285F324BE8C4B00BFB8B5 /* PhoneConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneConnector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,7 @@
 			children = (
 				245285B324BE89C800BFB8B5 /* AppDelegate.swift */,
 				245285B524BE89C800BFB8B5 /* SceneDelegate.swift */,
+				245285F124BE8A2500BFB8B5 /* WatchConnector.swift */,
 				245285B724BE89C800BFB8B5 /* ContentView.swift */,
 				245285B924BE89CA00BFB8B5 /* Assets.xcassets */,
 				245285BE24BE89CA00BFB8B5 /* LaunchScreen.storyboard */,
@@ -163,6 +168,7 @@
 			children = (
 				245285D824BE89CB00BFB8B5 /* ContentView.swift */,
 				245285DA24BE89CB00BFB8B5 /* HostingController.swift */,
+				245285F324BE8C4B00BFB8B5 /* PhoneConnector.swift */,
 				245285DC24BE89CB00BFB8B5 /* ExtensionDelegate.swift */,
 				245285DE24BE89CB00BFB8B5 /* Assets.xcassets */,
 				245285E324BE89CB00BFB8B5 /* Info.plist */,
@@ -313,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				245285B424BE89C800BFB8B5 /* AppDelegate.swift in Sources */,
+				245285F224BE8A2500BFB8B5 /* WatchConnector.swift in Sources */,
 				245285B624BE89C800BFB8B5 /* SceneDelegate.swift in Sources */,
 				245285B824BE89C800BFB8B5 /* ContentView.swift in Sources */,
 			);
@@ -322,6 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				245285F424BE8C4B00BFB8B5 /* PhoneConnector.swift in Sources */,
 				245285DB24BE89CB00BFB8B5 /* HostingController.swift in Sources */,
 				245285D924BE89CB00BFB8B5 /* ContentView.swift in Sources */,
 				245285DD24BE89CB00BFB8B5 /* ExtensionDelegate.swift in Sources */,
